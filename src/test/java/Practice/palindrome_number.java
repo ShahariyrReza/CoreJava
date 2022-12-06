@@ -1,0 +1,39 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package Practice;
+
+import java.util.Scanner;
+
+/**
+ *
+ * @author shahariyr reza
+ */
+public class palindrome_number {
+    public static void main(String[] args) {
+        
+        for (int i = 0; i < 10; i++) {
+            
+        Scanner input = new Scanner(System.in);
+        
+        int num, r, temp,sum=0;
+        System.out.println("Enter any number :");
+        num = input.nextInt();
+        
+        temp = num;
+        while (temp != 0) {            
+            r = temp % 10;
+            sum = sum * 10 + r;
+            temp = temp / 10;
+        }
+            if (sum == num) {
+                System.out.println("Palindrome Number");
+            } 
+            
+            else {
+                System.out.println("Not a Palindrome Number");
+            }
+        }
+    }
+}
