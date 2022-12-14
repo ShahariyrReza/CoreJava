@@ -16,7 +16,7 @@ public class pattern_001 {
 
         for (int row = 1; row <= row_num; row++) {
             for (int col = 1; col <= row; col++) {
-                System.out.print("Altaf \s");
+                System.out.print("Mitu \s");
             }
             System.out.println(" ");
         }
