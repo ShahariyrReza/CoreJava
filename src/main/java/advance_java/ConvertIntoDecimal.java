@@ -1,11 +1,10 @@
 package advance_java;
 
 import java.util.Scanner;
-import javax.xml.transform.OutputKeys;
 
 /**
  *
- * @author shaha
+ * @author shahariyr reza
  */
 public class ConvertIntoDecimal {
 
