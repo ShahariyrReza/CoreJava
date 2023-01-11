@@ -16,5 +16,8 @@ public class TestTeacher {
 
         Teacher teacher3 = new Teacher(3, "Catrinaa Kyfe", "Female", 32);
         teacher3.DisplayInfo();
+        
+        Teacher teacher4 = new  Teacher();
+        teacher4.DisplayInfo();
     }
 }

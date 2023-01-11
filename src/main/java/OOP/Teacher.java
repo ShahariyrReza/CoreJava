@@ -9,7 +9,13 @@ public class Teacher {
     String name, gender;
     int id, age;
 
-    Teacher(int a, String b, String c, int d) {
+    Teacher() {
+        System.out.println("No Value ");
+    }
+    
+    
+
+    Teacher(int a, String b, String c, int d) {//This is a peramiterised constructor as it have perameter.
         id = a;
         name = b;
         gender = c;
