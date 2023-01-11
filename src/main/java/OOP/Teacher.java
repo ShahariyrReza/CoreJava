@@ -9,7 +9,7 @@ public class Teacher {
     String name, gender;
     int id, age;
 
-    void SetInfo(int a, String b, String c, int d) {
+    Teacher(int a, String b, String c, int d) {
         id = a;
         name = b;
         gender = c;
