@@ -9,7 +9,7 @@ public class Teacher {
     String name, gender;
     int id, age;
 
-    Teacher() {
+    Teacher() { // This is a defult constructor as it have no peramiter.
         System.out.println("No Value ");
     }
     
