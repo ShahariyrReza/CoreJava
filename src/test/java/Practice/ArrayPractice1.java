@@ -19,7 +19,7 @@ public class ArrayPractice1 {
         double[] info = new double[n];
 
         for (int i = 0; i < info.length; i++) {
-            System.out.println("Please Give the Info number " + (i+1));
+            System.out.println("Please Give the Info number " + (i + 1));
             info[i] = input.nextDouble();
 
         }
@@ -27,7 +27,10 @@ public class ArrayPractice1 {
         for (int i = 0; i < info.length; i++) {
             sum = sum + info[i];
         }
+        double avg = sum / n;
+
         System.out.println("The Sum is :" + sum);
+        System.out.println("Average value is :" + avg);
 
     }
 }
