@@ -22,5 +22,11 @@ public class Employee {
         System.out.println("Name :" + Name);
         System.out.println("Department :" + DeptName);
     }
+    
+    // Creating a Static Method.
+    static void Employeetype(){
+    
+        System.out.println("Full time Employee");
+    }
 
 }
