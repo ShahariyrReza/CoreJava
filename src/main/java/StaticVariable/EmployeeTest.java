@@ -17,5 +17,8 @@ public class EmployeeTest {
         E3.DisplayInfo();
         
         System.out.println("The static variable here is:"+Employee.DeptName);
+        
+        
+        Employee.Employeetype();
     }
 }
