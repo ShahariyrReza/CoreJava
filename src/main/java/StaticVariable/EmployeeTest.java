@@ -19,6 +19,6 @@ public class EmployeeTest {
         System.out.println("The static variable here is:"+Employee.DeptName);
         
         
-        Employee.Employeetype();
+        Employee.Employeetype(); 
     }
 }
