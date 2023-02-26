@@ -1,0 +1,16 @@
+                                 #########################
+                                        Problem 1
+                                 #########################
+Create a class called Box that include three pieces of information as instance variables
+- height, width and depth(type double) of two boxes. Your class should have a constructor
+and initializes the three instance variables.
+
+Provide a method displayVol that will display the volume of two boxes. .....
+Suppose the value of instance variables for the first box's are (10,10,10) and the second
+box's are (20,30,10).
+Write a test application named BoxVolume that demonstrate class Box's capabilities.
+
+
+                                 #########################
+                                        Problem 2
+                                 #########################
