@@ -6,12 +6,12 @@ package OOP;
  * @author Shahariyr Reza
  */
 public class Person {
-    private String name;
-    private int age;
+     String name;
+     int age;
     
-    public void setName(String name){
+    public void setName(String name, int age){
     this.name = name;
-    
+    this.age = age;
     }
     
     public String getName(){
