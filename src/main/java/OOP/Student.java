@@ -1,29 +1,16 @@
 package OOP;
 
-public class Student {
-    int id;
-    String name,email;
+public class Student extends Person{
     
-    Student(){
-        System.out.println("No Information");
-    }
-
-    Student(int id, String name) { //this.id , this.name agulo amr valo lagce..
-        this.id = id;
-        this.name = name;
-    }
-
-    Student(int id, String name, String email) {
-        this.id = id;
-        this.name = name;
-        this.email = email;
-    }
-    
-    void DisplayInfo(){
+    public static void main(String[] args) {
+        String dept = "CSE";
         
-        System.out.println("ID:"+id);
-        System.out.println("Name:"+name);
-        System.out.println("Email:"+email);
+        Person p1 = new Person();
+        p1.setName("Shahariyr", 23);
+        
+        System.out.println(p1.getName());
+        
+        
     }
     
 }
