@@ -14,3 +14,6 @@ Write a test application named BoxVolume that demonstrate class Box's capabiliti
                                  #########################
                                         Problem 2
                                  #########################
+Write an inheritance hierarchy for the class Rectangle,Circle,Triangle. Create an abstract
+class named Shape as super-class of the hierarchy.Write an application that instantiate
+object of your classes and output of their area.
