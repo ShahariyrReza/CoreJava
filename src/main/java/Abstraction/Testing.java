@@ -1,13 +1,14 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package Abstraction;
 
-/**
- *
- * @author shaha
- */
 public class Testing {
+    public static void main(String[] args) {
+        MobileUser mu;
+        
+        mu = new Shahariyr();
+        mu.sendMessage();
+        
+        mu = new Mazher();
+        mu.sendMessage();
+    }
     
 }
