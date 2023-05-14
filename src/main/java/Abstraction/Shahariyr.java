@@ -1,13 +1,9 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package Abstraction;
 
-/**
- *
- * @author shaha
- */
-public class Shahariyr {
-    
+
+public class Shahariyr extends MobileUser{
+   @Override
+    void sendMessage(){
+       System.out.println("Hello , I'm Shahariyr Reza");
+    }
 }
